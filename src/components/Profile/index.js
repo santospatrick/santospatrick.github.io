@@ -4,6 +4,7 @@ import { FormattedMessage } from "react-intl";
 import styles from "./index.module.css";
 import ProfileImage from "./profile.png";
 import Rotating from "./svg/Rotating.jsx";
+import SocialMedia from "../SocialMedia";
 
 class Profile extends Component {
   render() {
@@ -25,6 +26,7 @@ class Profile extends Component {
         <FormattedMessage id="subtitle">
           {text => <h1 className={styles.profileSubtitle}>{text}</h1>}
         </FormattedMessage>
+        <SocialMedia />
       </div>
     );
   }

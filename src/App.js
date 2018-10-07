@@ -11,12 +11,10 @@ class App extends Component {
     return (
       <Router>
         <Container>
-          <div>
-            <Profile />
-          </div>
+          <Profile />
           <div style={{ position: "relative" }}>
-            {/* <Header /> */}
-            {/* <Routes /> */}
+            {/* <Header />
+            <Routes /> */}
           </div>
         </Container>
       </Router>

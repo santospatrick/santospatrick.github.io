@@ -1,0 +1,11 @@
+.socialMediaContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.socialMediaSvg{
+    height: 15px;
+    margin-right: 20px;
+}
