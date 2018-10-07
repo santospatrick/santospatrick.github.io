@@ -8,7 +8,8 @@ const NavActiveLink = props => (
 
 const pages = [
   { to: "/", label: "skills" },
-  { to: "/thoughts", label: "thoughts" }
+  { to: "/thoughts", label: "thoughts" },
+  { to: "/work", label: "work" }
 ];
 
 class Header extends Component {

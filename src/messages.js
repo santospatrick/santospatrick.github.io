@@ -3,14 +3,16 @@ export default {
     title: "Hi, I am Patrick",
     header: {
       skills: "Skills",
-      thoughts: "Thoughts"
+      thoughts: "Thoughts",
+      work: "Work"
     }
   },
   "pt-BR": {
     title: "Olá, eu sou o Patrick",
     header: {
       skills: "Habilidades",
-      thoughts: "Considerações"
+      thoughts: "Considerações",
+      work: "Trabalhos"
     }
   }
 };
