@@ -1,17 +1,21 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 // Routes
 import Skills from "./Skills";
 import Thoughts from "./Thoughts";
 import Work from "./Work";
+import PageNotFound from "./PageNotFound";
 
 function Routes() {
   return (
     <div>
-      <Route exact path="/" component={Skills} />
-      <Route exact path="/thoughts" component={Thoughts} />
-      <Route exact path="/work" component={Work} />
+      <Switch>
+        <Route exact path="/" component={Skills} />
+        <Route exact path="/thoughts" component={Thoughts} />
+        <Route exact path="/work" component={Work} />
+        <Route component={PageNotFound} />
+      </Switch>
     </div>
   );
 }
