@@ -26,6 +26,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.14.3"
   }
 }
