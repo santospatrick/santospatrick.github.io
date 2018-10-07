@@ -1,22 +1,25 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { FormattedMessage } from "react-intl";
 
 import Routes from "./routes";
+import Container from "./components/Container";
 import Header from "./components/Header";
+import Profile from "./components/Profile";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <FormattedMessage id="title" />
-        <Router>
+      <Router>
+        <Container>
           <div>
-            <Header />
-            <Routes />
+            <Profile />
           </div>
-        </Router>
-      </div>
+          <div style={{ position: "relative" }}>
+            {/* <Header /> */}
+            {/* <Routes /> */}
+          </div>
+        </Container>
+      </Router>
     );
   }
 }
