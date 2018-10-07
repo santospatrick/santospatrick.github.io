@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FormattedMessage } from "react-intl";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -17,7 +18,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            <FormattedMessage id="title" />
           </a>
         </header>
       </div>
