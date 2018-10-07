@@ -14,15 +14,15 @@ import { flattenMessages } from "./utils";
 
 addLocaleData([...en, ...pt]);
 
-let locale =
+const locale =
   (navigator.languages && navigator.languages[0]) ||
   navigator.language ||
   navigator.userLanguage ||
   "pt-BR";
 
 const checkLanguage = language => {
-  if (language === "en-US") return "en";
-  return language;
+  if (language.includes("en-") || language === "en") return "en";
+  return "pt-BR";
 };
 
 ReactDOM.render(
