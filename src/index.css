@@ -12,3 +12,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.page{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+
+.fade-enter {
+  opacity: 0.01;
+  transform: translate3d(0, 8px, 0);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: all 300ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+
+.fade-exit {
+  opacity: 0;
+}
