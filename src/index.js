@@ -25,12 +25,14 @@ const checkLanguage = language => {
   return "pt-BR";
 };
 
+const navigatorLanguage = checkLanguage(locale);
+
 ReactDOM.render(
   <IntlProvider
     locale={locale}
-    messages={flattenMessages(messages[checkLanguage(locale)])}
+    messages={flattenMessages(messages[navigatorLanguage])}
   >
-    <App />
+    <App navigatorLanguage={navigatorLanguage} />
   </IntlProvider>,
   document.getElementById("root")
 );
