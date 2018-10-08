@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import { FormattedMessage } from "react-intl";
 import { NavLink } from "react-router-dom";
 
+import styles from "./index.module.css";
+import "./index.css";
+
 const NavActiveLink = props => (
-  <NavLink exact activeStyle={{ color: "green" }} {...props} />
+  <NavLink activeClassName="header-link-active" exact {...props} />
 );
 
 const pages = [
@@ -16,10 +19,10 @@ class Header extends Component {
   render() {
     return (
       <nav>
-        <ul>
+        <ul className={styles.headerList}>
           {pages.map((item, index) => (
-            <li key={index}>
-              <NavActiveLink to={item.to}>
+            <li className={styles.headerItem} key={index}>
+              <NavActiveLink className={styles.headerLink} to={item.to}>
                 <FormattedMessage id={`header.${item.label}`} />
               </NavActiveLink>
             </li>

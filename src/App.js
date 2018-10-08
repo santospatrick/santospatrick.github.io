@@ -13,8 +13,8 @@ class App extends Component {
         <Container>
           <Profile />
           <div style={{ position: "relative" }}>
-            {/* <Header />
-            <Routes /> */}
+            <Header />
+            <Routes />
           </div>
         </Container>
       </Router>
