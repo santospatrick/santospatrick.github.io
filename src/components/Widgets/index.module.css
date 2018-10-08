@@ -1,0 +1,25 @@
+.widgetList{
+
+}
+
+.widgetItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #808080;
+    background-color: rgba(187, 187, 187, 0.05);
+    border-radius: 10px;
+    width: 65px;
+    height: 65px;
+    transition: all .1s ease-in-out;
+}
+
+.widgetItem:hover{
+    background-color: rgba(187, 187, 187, 0.2);
+}
+
+.widgetIcon{
+    height: 35px;
+}

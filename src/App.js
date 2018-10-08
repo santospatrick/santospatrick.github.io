@@ -12,7 +12,7 @@ class App extends Component {
       <Router>
         <Container>
           <Profile />
-          <div style={{ position: "relative" }}>
+          <div style={{ position: "relative", height: "450px" }}>
             <Header />
             <Routes />
           </div>

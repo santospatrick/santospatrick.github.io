@@ -58,7 +58,7 @@ body {
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #1c2329;
+  background: #131517;
 }
 
 code {
@@ -86,7 +86,7 @@ code {
 /* Pages */
 .page{
   position: absolute;
-  top: 100px;
+  top: 90px;
   left: 0;
   right: 0;
 }
