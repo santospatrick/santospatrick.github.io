@@ -15,7 +15,11 @@ function Routes() {
     <Route
       render={({ location }) => (
         <TransitionGroup>
-          <CSSTransition key={location.key} timeout={300} classNames="fade">
+          <CSSTransition
+            key={location.pathname}
+            timeout={300}
+            classNames="fade"
+          >
             <Switch location={location}>
               <Route exact path="/" component={Skills} />
               <Route exact path="/thoughts" component={Thoughts} />
