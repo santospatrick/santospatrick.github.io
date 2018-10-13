@@ -5,6 +5,7 @@ import Routes from "./routes";
 import Container from "./components/Container";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
+import PageContainer from "./components/PageContainer";
 
 class App extends Component {
   render() {
@@ -12,10 +13,10 @@ class App extends Component {
       <Router>
         <Container>
           <Profile />
-          <div style={{ position: "relative", height: "450px" }}>
+          <PageContainer>
             <Header />
             <Routes />
-          </div>
+          </PageContainer>
         </Container>
       </Router>
     );
