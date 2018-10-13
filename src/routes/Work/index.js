@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PageHOC from "../../hocs/Page";
 
 class Work extends Component {
   render() {
@@ -6,4 +7,4 @@ class Work extends Component {
   }
 }
 
-export default Work;
+export default PageHOC(Work);

@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import PageHOC from "../../hocs/Page";
 
 class Thoughts extends Component {
   render() {
-    return <div className="page">Considerações</div>;
+    return <h1>Considerações</h1>;
   }
 }
 
-export default Thoughts;
+export default PageHOC(Thoughts);

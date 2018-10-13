@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Widgets from "../../components/Widgets";
+import PageHOC from "../../hocs/Page";
 import skills from "./skills";
 
 class Skills extends Component {
@@ -19,15 +20,13 @@ class Skills extends Component {
 
   render() {
     return (
-      <div className="page">
-        <Widgets
-          mounted={this.state.mounted}
-          resetDelay={this.state.resetDelay}
-          skills={skills}
-        />
-      </div>
+      <Widgets
+        mounted={this.state.mounted}
+        resetDelay={this.state.resetDelay}
+        skills={skills}
+      />
     );
   }
 }
 
-export default Skills;
+export default PageHOC(Skills);

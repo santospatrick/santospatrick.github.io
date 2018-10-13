@@ -1,7 +1,8 @@
 import React from "react";
+import PageHOC from "../../hocs/Page";
 
 function PageNotFound() {
   return <div>404</div>;
 }
 
-export default PageNotFound;
+export default PageHOC(PageNotFound);

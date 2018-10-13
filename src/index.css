@@ -26,12 +26,3 @@ body {
 .fade-exit {
   opacity: 0;
 }
-
-/* Pages */
-.page{
-  position: absolute;
-  top: 90px;
-  left: 0;
-  right: 0;
-  color: #fff;
-}
