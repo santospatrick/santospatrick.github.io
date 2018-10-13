@@ -1,4 +1,7 @@
+.header-link-active{
+    color: rgba(255,255,255,1);
+}
+
 .header-link-active:before{
-    color: red;
     width: 100%;
 }
