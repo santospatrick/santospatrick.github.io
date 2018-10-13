@@ -1,8 +1,12 @@
-.widgetList{
-
+.list{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.widgetItem{
+.item{
+    position: relative;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,15 +15,29 @@
     border: 1px solid #808080;
     background-color: rgba(187, 187, 187, 0.05);
     border-radius: 10px;
-    width: 65px;
-    height: 65px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    width: 100%;
+    padding-bottom: 100%;
     transition: all .1s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
 }
 
-.widgetItem:hover{
+.item:hover{
     background-color: rgba(187, 187, 187, 0.2);
+}
+
+.mounted{
+    visibility: visible;
+    opacity: 1;
 }
 
 .widgetIcon{
     height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
