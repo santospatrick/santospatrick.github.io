@@ -14,6 +14,7 @@ function Widgets({ mounted, resetDelay, skills }) {
           >
             <item.icon className={styles.icon} />
             <span className={styles.title}>{item.title}</span>
+            <div className={styles.background} />
           </li>
         </CSSTransition>
       ))}
