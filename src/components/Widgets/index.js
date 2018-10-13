@@ -1,15 +1,7 @@
 import React from "react";
 
-import IconReact from "./svg/React.jsx";
-
 import styles from "./index.module.css";
-
-const skills = [
-  {
-    icon: IconReact,
-    title: "React"
-  }
-];
+import skills from "./skills";
 
 function Widgets() {
   return (
