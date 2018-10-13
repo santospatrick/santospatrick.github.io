@@ -6,6 +6,9 @@ export default {
       skills: "Skills",
       thoughts: "Thoughts",
       work: "Work"
+    },
+    skills: {
+      emailButton: "Lets work together!"
     }
   },
   "pt-BR": {
@@ -15,6 +18,9 @@ export default {
       skills: "Habilidades",
       thoughts: "Considerações",
       work: "Trabalhos"
+    },
+    skills: {
+      emailButton: "Vamos trabalhar juntos!"
     }
   }
 };
