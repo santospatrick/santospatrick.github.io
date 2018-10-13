@@ -1,6 +1,6 @@
 .list{
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 40px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -20,13 +20,18 @@
     transition-property: all;
     width: 100%;
     padding-bottom: 100%;
-    transition: all .1s ease-in-out;
+    transition: transform .1s ease-in-out, opacity .1s ease-in-out;
     visibility: hidden;
     opacity: 0;
 }
 
 .item:hover{
     background-color: rgba(187, 187, 187, 0.2);
+    transform: scale(1.2);
+}
+
+.item:hover .title{
+    opacity: 1;
 }
 
 .mounted{
@@ -34,10 +39,21 @@
     opacity: 1;
 }
 
-.widgetIcon{
-    height: 35px;
+.icon{
+    height: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    font-size: 1em;
 }
