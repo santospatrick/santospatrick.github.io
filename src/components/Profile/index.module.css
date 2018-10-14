@@ -42,6 +42,18 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .profileContainer + div{
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .profileContainer{
+        margin-right: 10px;
+    }
+}
+
 .profileImage{
     z-index: 3;
     position: absolute;

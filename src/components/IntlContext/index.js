@@ -1,1 +1,1 @@
-export { default } from "./IntlContext";
+export { default, LanguageContext } from "./IntlContext";

@@ -9,6 +9,12 @@ export default {
     },
     skills: {
       emailButton: "Lets work together!"
+    },
+    profile: {
+      languagues: {
+        portuguese: "Portuguese - Brazilian",
+        english: "English"
+      }
     }
   },
   "pt-BR": {
@@ -21,6 +27,12 @@ export default {
     },
     skills: {
       emailButton: "Vamos trabalhar juntos!"
+    },
+    profile: {
+      languagues: {
+        portuguese: "Português - Brasil",
+        english: "Inglês"
+      }
     }
   }
 };

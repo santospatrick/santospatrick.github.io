@@ -22,18 +22,26 @@ const getNavigatorLanguage = language => {
 
 const language = getNavigatorLanguage(locale);
 
+export const LanguageContext = React.createContext();
+
 class IntlContext extends Component {
   state = {
     language
   };
+  changeLanguage = language => this.setState({ language });
   render() {
+    const { language } = this.state;
     return (
-      <IntlProvider
-        locale={this.state.language}
-        messages={flattenMessages(messages[language])}
+      <LanguageContext.Provider
+        value={{ state: this.state, changeLanguage: this.changeLanguage }}
       >
-        {this.props.children}
-      </IntlProvider>
+        <IntlProvider
+          locale={language}
+          messages={flattenMessages(messages[language])}
+        >
+          {this.props.children}
+        </IntlProvider>
+      </LanguageContext.Provider>
     );
   }
 }
