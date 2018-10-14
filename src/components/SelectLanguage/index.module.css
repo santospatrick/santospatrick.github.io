@@ -48,6 +48,15 @@
     outline: none;
 }
 
+.input:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+.input:focus{
+    outline: 0;
+}
+
 .flag svg{
     height: 15px;
 }
