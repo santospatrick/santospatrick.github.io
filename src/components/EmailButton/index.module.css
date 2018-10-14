@@ -1,10 +1,10 @@
 .button{
     display: flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
     height: 45px;
     padding: 0 50px;
-    margin-top: 50px;
     align-self: center;
     -webkit-appearance: none;
     background: linear-gradient(to left, #08c8f6, #4d5dfb);
@@ -17,6 +17,20 @@
     cursor: pointer;
     transform: scale(1);
     transition: all .1s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+    .button{
+        margin-bottom: 20px;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .button{
+        margin-top: 50px;
+    }
 }
 
 .button:hover{

@@ -1,7 +1,24 @@
 .profileWrapper{
     display: flex;
     flex-direction: column;
-    margin-right: 100px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 961px) {
+    .profileWrapper{
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .profileWrapper{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .profileContainer{
@@ -11,7 +28,18 @@
     position: relative;
     width: 210px;
     height: 215px;
-    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .profileContainer{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        margin-right: 30px;
+    }
 }
 
 .profileImage{
@@ -24,12 +52,24 @@
     max-width: 100%;
 }
 
+@media screen and (max-width: 960px) {
+    .profileImage{
+        bottom: -15px;
+    }
+}
+
 .profileRotating{
     z-index: 2;
     position: absolute;
     bottom: -150px;
     left: 50%;
     animation: App-logo-spin infinite 50s linear;
+}
+
+@media screen and (max-width: 960px) {
+    .profileRotating{
+        display: none;
+    }
 }
 
 .profileGradient {
@@ -54,7 +94,13 @@
     color: #fff;
     font-size: 1.3em;
     font-weight: 300;
-    margin: 0;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 961px) {
+    .profileTitle{
+        margin-top: 10px;
+    }
 }
 
 .profileSubtitle{

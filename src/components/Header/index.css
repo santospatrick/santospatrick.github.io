@@ -2,6 +2,12 @@
     color: rgba(255,255,255,1);
 }
 
+@media screen and (max-width: 960px) {
+    .header-link-active{
+        background: #676767;
+    }   
+}
+
 .header-link-active:before{
     width: 100%;
 }

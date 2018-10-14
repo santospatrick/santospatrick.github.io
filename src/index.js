@@ -6,8 +6,8 @@ import en from "react-intl/locale-data/en";
 import pt from "react-intl/locale-data/pt";
 
 import App from "./App";
-import "reset-css";
 import "sanitize.css";
+import "reset-css";
 import "./index.css";
 
 import messages from "./messages";

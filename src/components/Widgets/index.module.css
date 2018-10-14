@@ -1,7 +1,37 @@
 .list{
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 960px) {
+    .list{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .list{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .list{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .list{
+        grid-gap: 20px;
+    }
 }
 
 .item{
@@ -65,7 +95,7 @@
 
 .item:hover .title{
     opacity: 1;
-    top: calc(50% + 30px);
+    top: calc(50% + 25px);
 }
 
 .item:hover .background{

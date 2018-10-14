@@ -1,7 +1,18 @@
 .container{
     position: absolute;
-    top: 90px;
     left: 0;
     right: 0;
     color: #fff;
+}
+
+@media screen and (min-width: 961px) {
+    .container{
+        top: 90px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container{
+        padding-bottom: 80px;
+    }
 }

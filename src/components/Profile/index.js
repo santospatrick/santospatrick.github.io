@@ -20,13 +20,15 @@ class Profile extends Component {
             <Rotating className={styles.profileRotating} />
           </div>
         </div>
-        <FormattedMessage id="title">
-          {text => <h1 className={styles.profileTitle}>{text}</h1>}
-        </FormattedMessage>
-        <FormattedMessage id="subtitle">
-          {text => <h1 className={styles.profileSubtitle}>{text}</h1>}
-        </FormattedMessage>
-        <SocialMedia />
+        <div>
+          <FormattedMessage id="title">
+            {text => <h1 className={styles.profileTitle}>{text}</h1>}
+          </FormattedMessage>
+          <FormattedMessage id="subtitle">
+            {text => <h1 className={styles.profileSubtitle}>{text}</h1>}
+          </FormattedMessage>
+          <SocialMedia />
+        </div>
       </div>
     );
   }
