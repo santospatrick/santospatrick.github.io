@@ -7,7 +7,11 @@ body {
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #131517;
+  background: #1C2329;
+}
+
+i{
+  font-style: italic;
 }
 
 /* Transitions */
