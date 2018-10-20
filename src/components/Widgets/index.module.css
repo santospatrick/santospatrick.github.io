@@ -66,6 +66,11 @@
     transition: all .1s ease-in-out;
 }
 
+.item:nth-child(8) .icon {
+    height: auto;
+    width: 50px;
+}
+
 .title{
     position: absolute;
     top: calc(50% + 20px);

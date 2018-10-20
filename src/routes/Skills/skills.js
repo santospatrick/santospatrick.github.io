@@ -5,15 +5,15 @@ import {
   HTML5,
   Illustrator,
   Photoshop,
-  Premiere,
   Redux,
   Sass,
   ReactNative,
-  Git,
   Javascript,
   Nodejs,
   Vuejs,
-  Figma
+  Webpack,
+  Babel,
+  Typescript
 } from "./svg";
 
 const skills = [
@@ -22,60 +22,60 @@ const skills = [
     title: "React"
   },
   {
-    icon: Angular,
-    title: "Angular"
-  },
-  {
-    icon: CSS3,
-    title: "CSS3"
-  },
-  {
-    icon: HTML5,
-    title: "HTML5"
-  },
-  {
-    icon: Illustrator,
-    title: "Illustrator"
-  },
-  {
-    icon: Photoshop,
-    title: "Photoshop"
-  },
-  {
-    icon: Premiere,
-    title: "Premiere"
-  },
-  {
     icon: Redux,
     title: "Redux"
   },
   {
-    icon: Sass,
-    title: "Sass"
+    icon: Angular,
+    title: "Angular"
   },
   {
     icon: ReactNative,
     title: "React Native"
   },
   {
-    icon: Git,
-    title: "Git"
-  },
-  {
-    icon: Javascript,
-    title: "Javascript"
+    icon: Vuejs,
+    title: "Vue.js"
   },
   {
     icon: Nodejs,
     title: "Node.js"
   },
   {
-    icon: Vuejs,
-    title: "Vue.js"
+    icon: Webpack,
+    title: "Webpack"
   },
   {
-    icon: Figma,
-    title: "Figma"
+    icon: Babel,
+    title: "Babel"
+  },
+  {
+    icon: Typescript,
+    title: "Typescript"
+  },
+  {
+    icon: Javascript,
+    title: "Javascript"
+  },
+  {
+    icon: CSS3,
+    title: "CSS3"
+  },
+  {
+    icon: Sass,
+    title: "Sass"
+  },
+  {
+    icon: HTML5,
+    title: "HTML5"
+  },
+  {
+    icon: Photoshop,
+    title: "Photoshop"
+  },
+  {
+    icon: Illustrator,
+    title: "Illustrator"
   }
 ];
 
