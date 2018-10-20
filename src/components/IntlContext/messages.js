@@ -195,13 +195,13 @@ export default {
         <strong>
           Editor: <i>VSCode</i>
         </strong>
-        , depois de anos usando sublime text (e alguns usando atom) estou usando o VSCode por causa do suporte com o ESLint e eu amo as sugestões que vem na hora certa 99% das vezes! O fluxo de trabalho de debug com React e Chrome também é fantástico. Sim eu já tentei usar o vim e não, não sou um robô.
+        , depois de anos usando sublime text (e alguns usando atom) estou usando o VSCode por causa do suporte ao ESLint e eu amo as sugestões que vem na hora certa 99% das vezes! O fluxo de trabalho de debug com React e Chrome também é fantástico. Sim eu já tentei usar o vim e não, não sou um robô.
       </li>
       <li>
         <strong>
           Terminal: <i>Oh-my-zsh</i>
         </strong>
-        , esse é o meu emulador de terminal atual, eu não consigo mais viver sem as sugestões de textos já digitados anteriormente e syntax highlighting, essa ferramenta me faz sentir como um humano usando o terminal e não um macaco naqueles 50 tons de cinza. Eu fiz um
+        , esse é o meu emulador de terminal atual, eu não consigo mais viver sem as sugestões de comandos e syntax highlighting, essa ferramenta me faz sentir como um humano usando o terminal e não um macaco naquela telinha preta baseada em 50 tons de cinza. Eu fiz um
         <a
           href="https://gist.github.com/santospatrick/119ad6db081127ceff83182213d67586"
           target="_blank"
@@ -245,7 +245,7 @@ export default {
         <strong>
           Captura de tela: <i>cmd + shift + 4</i>
         </strong>
-        , no mac para áreas selecionadas, janelas ou fullscren e
+        , no mac para áreas selecionadas, janelas ou fullscreen e
         <a
           href="https://github.com/lupoDharkael/flameshot"
           target="_blank"
