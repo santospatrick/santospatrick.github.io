@@ -45,6 +45,13 @@ export default {
           </p>
         </div>
       `
+    },
+    work: {
+      title: {
+        programming: "Programming",
+        design: "View all design projects"
+      },
+      currentyWorking: "Working with teams"
     }
   },
   "pt-BR": {
@@ -95,6 +102,13 @@ export default {
           </p>
         </div>
       `
+    },
+    work: {
+      title: {
+        programming: "Programação",
+        design: "Ver todos os projetos de design"
+      },
+      currentyWorking: "Trabalhando com times"
     }
   }
 };

@@ -9,7 +9,7 @@ import ScrollbarsContainer from "./ScrollbarsContainer";
 const Thoughts = () => (
   <>
     <MediaQuery query="(min-width: 961px)">
-      <ScrollbarsContainer>
+      <ScrollbarsContainer className={styles.container}>
         <FormattedHTMLMessage id="thoughts.text" />
       </ScrollbarsContainer>
     </MediaQuery>

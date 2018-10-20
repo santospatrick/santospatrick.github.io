@@ -1,0 +1,40 @@
+.container {
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    background: rgba(187, 187, 187, 0.05);
+    padding: 15px;
+    transition: all .1s ease-in-out;
+    color: white;
+    text-decoration: none;
+}
+
+.container:hover{
+    transform: translateY(-5px);
+}
+
+.subtitle {
+    font-size: .8em;
+    color: rgb(184, 184, 184);
+}
+
+.list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item + .item:before{
+    content: '|';
+    padding: 0 10px;
+    font-size: .7em;
+}

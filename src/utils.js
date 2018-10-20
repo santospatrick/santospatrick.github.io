@@ -17,10 +17,10 @@ export const consoleLogInspect = () => {
   var styles = [
     "background: #1C2329",
     "color: white",
-    "line-height: 30px",
+    "line-height: 1.5",
     "text-align: center",
     "font-weight: bold",
-    "padding: 0 5px"
+    "padding: 5px"
   ].join(";");
 
   console.log(

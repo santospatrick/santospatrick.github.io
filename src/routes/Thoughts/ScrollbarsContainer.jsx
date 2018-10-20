@@ -1,8 +1,6 @@
 import React from "react";
 import { Scrollbars } from "react-custom-scrollbars";
 
-import styles from "./index.module.css";
-
 const renderView = ({ style, ...props }) => {
   const viewStyle = {
     paddingRight: 15
@@ -24,7 +22,7 @@ function ScrollbarsContainer(props) {
       style={{ height: 440 }}
       renderView={renderView}
       renderThumbVertical={renderThumb}
-      className={styles.container}
+      {...props}
     >
       {props.children}
     </Scrollbars>
