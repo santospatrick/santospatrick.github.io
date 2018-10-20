@@ -5,7 +5,8 @@ export default {
     header: {
       skills: "Skills",
       thoughts: "Thoughts",
-      work: "Work"
+      work: "Work",
+      setup: "Setup"
     },
     skills: {
       emailButton: "Lets work together!"
@@ -52,6 +53,82 @@ export default {
         design: "View all design projects"
       },
       currentyWorking: "Working with teams"
+    },
+    setup: {
+      list: `
+      <ul>
+      <li>
+        <strong>
+          Editor: <i>VSCode</i>
+        </strong>
+        , after years at sublime text (and some using atom) I changed to VSCode
+        because of ESLint support and I love the suggestions that are 99% of the
+        time right! Also for React development the debugging flow with Chrome is
+        awesome. Yes I tried vim and no, i am not a robot.
+      </li>
+      <li>
+        <strong>
+          Terminal: <i>Oh-my-zsh</i>
+        </strong>
+        , thats my currently terminal emulator, I cant live without text
+        completions and syntax highlighting anymore, it makes me feel like a
+        human using the terminal and not a monkey. I've made a
+        <a
+          href="https://gist.github.com/santospatrick/119ad6db081127ceff83182213d67586"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          tutorial for setup
+        </a>
+        on linux. For mac it is pretty much the same, the difference is that I
+        use
+        <a
+          href="https://www.iterm2.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          iTerm 2
+        </a>
+        and linux I use
+        <a
+          href="http://guake-project.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Guake
+        </a>
+        .
+      </li>
+      <li>
+        <strong>
+          Screen recording: <i>Quick Time Player</i>
+        </strong>
+        , on mac for 1080p60fps and
+        <a
+          href="https://launchpad.net/kazam"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Kazam
+        </a>
+        for linux.
+      </li>
+      <li>
+        <strong>
+          Screenshots: <i>cmd + shift + 4</i>
+        </strong>
+        , on mac for selected or full area and
+        <a
+          href="https://github.com/lupoDharkael/flameshot"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Flameshot
+        </a>
+        for linux.
+      </li>
+    </ul>
+      `
     }
   },
   "pt-BR": {
@@ -60,7 +137,8 @@ export default {
     header: {
       skills: "Habilidades",
       thoughts: "Considerações",
-      work: "Trabalhos"
+      work: "Trabalhos",
+      setup: "Setup"
     },
     skills: {
       emailButton: "Vamos trabalhar juntos!"
@@ -109,6 +187,76 @@ export default {
         design: "Ver todos os projetos de design"
       },
       currentyWorking: "Trabalhando com times"
+    },
+    setup: {
+      list: `
+      <ul>
+      <li>
+        <strong>
+          Editor: <i>VSCode</i>
+        </strong>
+        , depois de anos usando sublime text (e alguns usando atom) estou usando o VSCode por causa do suporte com o ESLint e eu amo as sugestões que vem na hora certa 99% das vezes! O fluxo de trabalho de debug com React e Chrome também é fantástico. Sim eu já tentei usar o vim e não, não sou um robô.
+      </li>
+      <li>
+        <strong>
+          Terminal: <i>Oh-my-zsh</i>
+        </strong>
+        , esse é o meu emulador de terminal atual, eu não consigo mais viver sem as sugestões de textos já digitados anteriormente e syntax highlighting, essa ferramenta me faz sentir como um humano usando o terminal e não um macaco naqueles 50 tons de cinza. Eu fiz um
+        <a
+          href="https://gist.github.com/santospatrick/119ad6db081127ceff83182213d67586"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          tutorial para configuração
+        </a>
+        no linux. No mac é quase a mesma coisa, a única diferença é que eu uso 
+        <a
+          href="https://www.iterm2.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          iTerm 2
+        </a>
+        e no linux eu uso o
+        <a
+          href="http://guake-project.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Guake
+        </a>
+        .
+      </li>
+      <li>
+        <strong>
+          Gravação de tela: <i>Quick Time Player</i>
+        </strong>
+        , no mac pra conseguir 1080p60fps e
+        <a
+          href="https://launchpad.net/kazam"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Kazam
+        </a>
+        no linux.
+      </li>
+      <li>
+        <strong>
+          Captura de tela: <i>cmd + shift + 4</i>
+        </strong>
+        , no mac para áreas selecionadas, janelas ou fullscren e
+        <a
+          href="https://github.com/lupoDharkael/flameshot"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Flameshot
+        </a>
+        no linux.
+      </li>
+    </ul>
+      `
     }
   }
 };

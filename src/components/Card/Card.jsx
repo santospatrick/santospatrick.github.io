@@ -9,10 +9,10 @@ const getHref = href => (href ? { href, target: "_blank" } : {});
 
 const Card = ({ href, locked, name, date, techs }) => (
   <a {...getHref(href)} className={styles.container}>
-    <h2 className={styles.title}>
+    <h3 className={styles.title}>
       {name} {!getHref(href).href && <Emoji text=":skull:" />}{" "}
       {locked && <Emoji text=":lock:" />}
-    </h2>
+    </h3>
     {date ? (
       <FormattedDate value={date} month="long" year="numeric">
         {value => <span className={styles.subtitle}>{capitalize(value)}</span>}

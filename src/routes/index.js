@@ -8,6 +8,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Skills from "./Skills";
 import Thoughts from "./Thoughts";
 import Work from "./Work";
+import Setup from "./Setup";
 import PageNotFound from "./PageNotFound";
 
 function Routes() {
@@ -24,6 +25,7 @@ function Routes() {
               <Route exact path="/" component={Skills} />
               <Route exact path="/thoughts" component={Thoughts} />
               <Route exact path="/work" component={Work} />
+              <Route exact path="/setup" component={Setup} />
               <Route component={PageNotFound} />
             </Switch>
           </CSSTransition>
