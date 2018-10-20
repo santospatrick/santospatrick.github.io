@@ -1,5 +1,6 @@
 import React from "react";
 import { Scrollbars } from "react-custom-scrollbars";
+import MediaQuery from "react-responsive";
 
 const renderView = ({ style, ...props }) => {
   const viewStyle = {
@@ -18,14 +19,21 @@ const renderThumb = ({ style, ...props }) => {
 
 function ScrollbarsContainer(props) {
   return (
-    <Scrollbars
-      style={{ height: 440 }}
-      renderView={renderView}
-      renderThumbVertical={renderThumb}
-      {...props}
-    >
-      {props.children}
-    </Scrollbars>
+    <>
+      <MediaQuery query="(min-width: 961px)">
+        <Scrollbars
+          style={{ height: 440 }}
+          renderView={renderView}
+          renderThumbVertical={renderThumb}
+          {...props}
+        >
+          {props.children}
+        </Scrollbars>
+      </MediaQuery>
+      <MediaQuery query="(max-width: 960px)">
+        <div {...props}>{props.children}</div>
+      </MediaQuery>
+    </>
   );
 }
 
