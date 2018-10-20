@@ -10,4 +10,3 @@ const Fb = props => (
 );
 
 export default Fb;
-

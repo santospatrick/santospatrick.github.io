@@ -17,4 +17,3 @@ const Figma = props => (
 );
 
 export default Figma;
-

@@ -14,4 +14,3 @@ const Rotating = props => (
 );
 
 export default Rotating;
-

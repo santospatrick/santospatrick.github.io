@@ -24,4 +24,3 @@ const Brazil = props => (
 );
 
 export default Brazil;
-

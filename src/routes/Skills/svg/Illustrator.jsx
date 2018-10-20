@@ -11,4 +11,3 @@ const Illustrator = props => (
 );
 
 export default Illustrator;
-

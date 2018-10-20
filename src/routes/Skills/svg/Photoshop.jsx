@@ -11,4 +11,3 @@ const Photoshop = props => (
 );
 
 export default Photoshop;
-

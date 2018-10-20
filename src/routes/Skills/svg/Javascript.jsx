@@ -8,4 +8,3 @@ const Javascript = props => (
 );
 
 export default Javascript;
-

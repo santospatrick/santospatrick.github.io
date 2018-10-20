@@ -10,4 +10,3 @@ const Sass = props => (
 );
 
 export default Sass;
-

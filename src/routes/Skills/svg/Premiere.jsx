@@ -22,4 +22,3 @@ const Premiere = props => (
 );
 
 export default Premiere;
-

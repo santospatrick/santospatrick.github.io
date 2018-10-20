@@ -10,4 +10,3 @@ const Behance = props => (
 );
 
 export default Behance;
-

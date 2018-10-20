@@ -11,4 +11,3 @@ const Redux = props => (
 );
 
 export default Redux;
-

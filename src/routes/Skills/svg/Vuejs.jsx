@@ -14,4 +14,3 @@ const Vuejs = props => (
 );
 
 export default Vuejs;
-
