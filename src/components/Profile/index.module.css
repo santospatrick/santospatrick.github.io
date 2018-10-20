@@ -75,7 +75,7 @@
     position: absolute;
     bottom: -150px;
     left: 50%;
-    animation: App-logo-spin infinite 50s linear;
+    animation: forms-infinite-spin infinite 50s linear;
 }
 
 @media screen and (max-width: 960px) {
@@ -93,7 +93,7 @@
     background: linear-gradient(#08c8f6, #4d5dfb);
 }
 
-@keyframes App-logo-spin {
+@keyframes forms-infinite-spin {
     from {
         transform: translate(-50%,0) rotate(0deg);
     }

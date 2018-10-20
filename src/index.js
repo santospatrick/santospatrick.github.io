@@ -8,6 +8,10 @@ import "sanitize.css";
 import "reset-css";
 import "./index.css";
 
+import { consoleLogInspect } from "./utils";
+
+consoleLogInspect();
+
 ReactDOM.render(
   <IntlContext>
     <App />

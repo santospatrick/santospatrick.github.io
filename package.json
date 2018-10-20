@@ -5,8 +5,10 @@
   "homepage": "http://santospatrick.github.io",
   "dependencies": {
     "react": "^16.5.2",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.5.2",
     "react-intl": "^2.7.1",
+    "react-responsive": "^5.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.4",
     "react-transition-group": "^2.5.0",
