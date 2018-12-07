@@ -29,7 +29,7 @@ const socialMedia = [
   {
     icon: Email,
     link:
-      "mailto:patrickspteixeira@example.com?Subject=Site | Vamos Trabalhar Juntos!"
+      "mailto:patrickspteixeira@gmail.com?Subject=Site | Vamos Trabalhar Juntos!"
   }
 ];
 
