@@ -43,6 +43,12 @@ const projects = [
     name: "Giveit",
     date: new Date(2017, 12),
     techs: ["React", "Node.js"]
+  },
+  {
+    name: "Camera Hot",
+    href: "http://camerahot.com/",
+    date: new Date(2018, 1),
+    techs: ["Vue.js", "Node.js", "CSS3"]
   }
 ];
 

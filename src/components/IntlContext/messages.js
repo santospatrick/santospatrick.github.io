@@ -1,7 +1,7 @@
 export default {
   en: {
     title: "Hi, I am Patrick",
-    subtitle: "Front-End Developer at Agrotis",
+    subtitle: "Front-End Developer at CHT",
     header: {
       skills: "Skills",
       thoughts: "Thoughts",
@@ -133,7 +133,7 @@ export default {
   },
   "pt-BR": {
     title: "Olá, eu sou o Patrick",
-    subtitle: "Front-End Developer em Agrotis",
+    subtitle: "Front-End Developer em CHT",
     header: {
       skills: "Habilidades",
       thoughts: "Considerações",

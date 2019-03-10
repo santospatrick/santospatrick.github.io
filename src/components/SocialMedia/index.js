@@ -8,6 +8,7 @@ import Linkedin from "./svg/Linkedin";
 import Behance from "./svg/Behance";
 import Fb from "./svg/Fb";
 import Email from "./svg/Email";
+import Medium from "./svg/Medium";
 
 const socialMedia = [
   {
@@ -30,6 +31,10 @@ const socialMedia = [
     icon: Email,
     link:
       "mailto:patrickspteixeira@gmail.com?Subject=Site | Vamos Trabalhar Juntos!"
+  },
+  {
+    icon: Medium,
+    link: "https://medium.com/@patrickspteixeira"
   }
 ];
 
