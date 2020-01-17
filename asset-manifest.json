@@ -8,8 +8,8 @@
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/profile.png": "/static/media/profile.16df2451.png",
-  "static/css/main.9bb606ea.chunk.css.map": "/static/css/main.9bb606ea.chunk.css.map",
   "static/css/1.680f3180.chunk.css.map": "/static/css/1.680f3180.chunk.css.map",
+  "static/css/main.9bb606ea.chunk.css.map": "/static/css/main.9bb606ea.chunk.css.map",
   "index.html": "/index.html",
   "precache-manifest.2deddd5374189d64892932e5d383357c.js": "/precache-manifest.2deddd5374189d64892932e5d383357c.js",
   "service-worker.js": "/service-worker.js"
