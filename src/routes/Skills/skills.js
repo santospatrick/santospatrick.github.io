@@ -1,6 +1,5 @@
 import {
   React,
-  Angular,
   CSS3,
   HTML5,
   Illustrator,
@@ -13,7 +12,8 @@ import {
   Vuejs,
   Webpack,
   Babel,
-  Typescript
+  Typescript,
+  Figma
 } from "./svg";
 
 const skills = [
@@ -26,16 +26,16 @@ const skills = [
     title: "Redux"
   },
   {
-    icon: Angular,
-    title: "Angular"
+    icon: Vuejs,
+    title: "Vue.js"
   },
   {
     icon: ReactNative,
     title: "React Native"
   },
   {
-    icon: Vuejs,
-    title: "Vue.js"
+    icon: Figma,
+    title: "Figma"
   },
   {
     icon: Nodejs,

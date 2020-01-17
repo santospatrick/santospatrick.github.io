@@ -13,3 +13,4 @@ export { default as Vuejs } from "./Vuejs";
 export { default as Webpack } from "./Webpack";
 export { default as Babel } from "./Babel";
 export { default as Typescript } from "./Typescript";
+export { default as Figma } from "./Figma";
