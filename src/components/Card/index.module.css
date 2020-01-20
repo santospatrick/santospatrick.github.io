@@ -18,6 +18,11 @@
     color: rgb(184, 184, 184);
 }
 
+.summary {
+    margin-top: 15px;
+    line-height: 1.25;
+}
+
 .list{
     margin-top: 20px;
     display: flex;

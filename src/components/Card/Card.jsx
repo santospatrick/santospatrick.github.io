@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 const capitalize = word => `${word.charAt(0).toUpperCase()}${word.substr(1)}`;
 const getHref = href => (href ? { href, target: "_blank" } : {});
 
-const Card = ({ href, locked, name, date, techs }) => (
+const Card = ({ href, locked, name, date, techs, summary }) => (
   <a {...getHref(href)} className={styles.container}>
     <h3 className={styles.title}>
       {name} {!getHref(href).href && <Emoji text=":skull:" />}{" "}
@@ -27,6 +27,9 @@ const Card = ({ href, locked, name, date, techs }) => (
         )}
       </FormattedMessage>
     )}
+    {summary.map(text => (
+      <p className={styles.summary}>{text}</p>
+    ))}
     <ul className={styles.list}>
       {techs.map((item, index) => (
         <li className={styles.item} key={index}>

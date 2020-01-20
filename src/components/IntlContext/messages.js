@@ -49,7 +49,8 @@ export default {
     },
     work: {
       title: {
-        programming: "Programming",
+        programming: "Full time jobs",
+        personal: "Personal Projects",
         design: "View all design projects"
       },
       currentyWorking: "Working with teams"
@@ -181,7 +182,8 @@ export default {
     },
     work: {
       title: {
-        programming: "Programação",
+        programming: "Trabalhos em/para empresas",
+        personal: "Projetos pessoais",
         design: "Ver todos os projetos de design"
       },
       currentyWorking: "Trabalhando com times"
