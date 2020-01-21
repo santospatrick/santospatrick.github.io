@@ -1,5 +1,15 @@
 const projects = [
   {
+    name: "Clinicarx",
+    summary: [
+      "Aplicativo desenvolvido com a CLI oficial do React Native, Styled Components para organização de estilos/componentes dumb e Firebase para notificações. Solução híbrida (iOS/Android).",
+      "O projeto consiste em conceder ao usuário acesso ao seu histórico de atendimentos, medicamentos solicitados pelo médico e avaliações de Farmácias."
+    ],
+    href: "https://apps.apple.com/br/app/clinicarx/id1482164511?l=en",
+    date: new Date(2019, 10),
+    techs: ["React Native", "Firebase", "iOS/Android"]
+  },
+  {
     name: "Camera Hot",
     summary: [
       "Sistema web em desenvolvimento com Vue.js, Vuex e CSS Modules. Estruturei o projeto desde o início com as melhores práticas de projetos Javascript padronizando o código a partir de conceitos e tecnologias como: ESLint, Prettier, Atomic Design, etc.",
