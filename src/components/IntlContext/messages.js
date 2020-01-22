@@ -49,7 +49,8 @@ export default {
     },
     work: {
       title: {
-        programming: "Full time jobs",
+        freelances: "Freelances",
+        jobs: "Full Time Jobs",
         personal: "Personal Projects",
         design: "View all design projects"
       },
@@ -182,7 +183,8 @@ export default {
     },
     work: {
       title: {
-        programming: "Trabalhos em/para empresas",
+        freelances: "Freelances",
+        jobs: "Experiência",
         personal: "Projetos pessoais",
         design: "Ver todos os projetos de design"
       },

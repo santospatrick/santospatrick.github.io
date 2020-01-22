@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 const capitalize = word => `${word.charAt(0).toUpperCase()}${word.substr(1)}`;
 const getHref = href => (href ? { href, target: "_blank" } : {});
 
-const Card = ({ href, locked, name, date, techs, summary }) => (
+const Card = ({ href, locked, name, date, techs, summary, until }) => (
   <a {...getHref(href)} className={styles.container}>
     <h3 className={styles.title}>
       {name} {!getHref(href).href && <Emoji text=":skull:" />}{" "}
@@ -15,7 +15,20 @@ const Card = ({ href, locked, name, date, techs, summary }) => (
     </h3>
     {date ? (
       <FormattedDate value={date} month="long" year="numeric">
-        {value => <span className={styles.subtitle}>{capitalize(value)}</span>}
+        {value => (
+          <span className={styles.subtitle}>
+            {capitalize(value)}
+            {until ? (
+              until === "now" ? (
+                " - Atual"
+              ) : (
+                <FormattedDate month="long" year="numeric" value={until}>
+                  {value => ` - ${capitalize(value)}`}
+                </FormattedDate>
+              )
+            ) : null}
+          </span>
+        )}
       </FormattedDate>
     ) : (
       <FormattedMessage id="work.currentyWorking">

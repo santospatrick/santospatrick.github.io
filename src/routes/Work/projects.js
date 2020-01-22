@@ -1,59 +1,44 @@
 const projects = [
   {
-    name: "Clinicarx",
-    summary: [
-      "Aplicativo desenvolvido com a CLI oficial do React Native, Styled Components para organização de estilos/componentes dumb e Firebase para notificações. Solução híbrida (iOS/Android).",
-      "O projeto consiste em conceder ao usuário acesso ao seu histórico de atendimentos, medicamentos solicitados pelo médico e avaliações de Farmácias."
-    ],
-    href: "https://apps.apple.com/br/app/clinicarx/id1482164511?l=en",
-    date: new Date(2019, 10),
-    techs: ["React Native", "Firebase", "iOS/Android"]
-  },
-  {
     name: "Camera Hot",
     summary: [
       "Sistema web em desenvolvimento com Vue.js, Vuex e CSS Modules. Estruturei o projeto desde o início com as melhores práticas de projetos Javascript padronizando o código a partir de conceitos e tecnologias como: ESLint, Prettier, Atomic Design, etc.",
       "Também estruturei um projeto back-end em Node.js para funcionalidades real time com Babel, Nodemon e PM2 para aumentar a produtividade dos ambientes de desenvolvimento/produção."
     ],
     href: "https://camerahot.com/",
-    date: new Date(2018, 1),
+    date: new Date(2019, 0),
+    until: "now",
     techs: ["Vue.js", "Node.js", "CSS3"]
   },
   {
-    name: "Giveit",
-    summary: [
-      "Sistema web e aplicativo para um trabalho de conclusão de curso em análise de sistemas. Trabalhei como Full-Stack, desenvolvi os 3 projetos (Front, Back e Mobile) sozinho do início ao fim.",
-      "O objetivo do projeto era facilitar a doação de roupas/comida. A partir de integração com o Google Maps, era possível encontrar ONGs que precisavam de doações perto de você e as próprias ONGs poderiam encontrar doadores também dentro da plataforma."
-    ],
-    date: new Date(2017, 12),
-    techs: ["React", "React Native", "Node.js"]
-  },
-  {
-    name: "Red Week Ideas",
-    summary: [""],
-    href: "http://redweekideas.com/",
-    date: new Date(2016, 11),
-    techs: ["HTML5", "CSS3", "Javascript"]
-  },
-  {
     name: "Agrotis Plataforma",
-    summary: [""],
+    summary: [
+      "Múltiplos sistemas web desenvolvidos com React.js, Styled Components e separação de projeto com componentes reutilizados entre 3 projetos diferentes para composição de um Design System.",
+      "Soluções para o agronegócio a partir de uma infraestrutura Cloud e transformação digital de processos manuais de clientes há mais de 25 anos. Trabalhei em 2 times com React/Angular e na estruturação do projeto de componentes reutilizáveis."
+    ],
     locked: true,
+    date: new Date(2016, 10),
+    until: new Date(2019, 0),
     href: "https://agrotis.io/#/",
-    techs: ["React", "CSS3"]
+    techs: ["React", "CSS3", "Angular 1.x"]
   },
   {
     name: "Estratégia Concursos",
-    summary: [""],
+    summary: [
+      "Sistema web EAD com conteúdo de preparação e capacitação de alunos para concursos públicos.",
+      "Trabalhei com suporte do projeto desenvolvido com jQuery e Sass."
+    ],
     href: "https://www.estrategiaconcursos.com.br",
-    date: new Date(2016, 8),
-    techs: ["HTML5", "CSS3", "Javascript"]
+    date: new Date(2016, 0),
+    until: new Date(2016, 10),
+    techs: ["HTML5", "CSS3", "jQuery", "Sass"]
   },
   {
     name: "Prata Fina",
     summary: [""],
     href: "https://www.pratafina.com.br",
-    date: new Date(2016, 6),
+    date: new Date(2016, 0),
+    until: new Date(2016, 10),
     techs: ["Vue.js", "HTML5", "Postcss"]
   },
   {
@@ -61,6 +46,7 @@ const projects = [
     summary: [""],
     href: "https://www.previneo.com.br",
     date: new Date(2016, 7),
+    until: new Date(2016, 7),
     techs: ["Vue.js", "HTML5", "CSS3"]
   }
 ];

@@ -6,14 +6,23 @@ import Card from "../../components/Card";
 import styles from "./index.module.css";
 import projects from "./projects";
 import ScrollbarsContainer from "../Thoughts/ScrollbarsContainer";
+import freelances from "./freelances";
 
 const Work = () => (
   <ScrollbarsContainer>
     <h2 className={styles.title}>
-      <FormattedMessage id="work.title.programming" />
+      <FormattedMessage id="work.title.jobs" />
     </h2>
     <div className={styles.container}>
       {projects.map((item, index) => (
+        <Card {...item} key={index} />
+      ))}
+    </div>
+    <h2 className={styles.title}>
+      <FormattedMessage id="work.title.freelances" />
+    </h2>
+    <div className={styles.container}>
+      {freelances.map((item, index) => (
         <Card {...item} key={index} />
       ))}
     </div>
