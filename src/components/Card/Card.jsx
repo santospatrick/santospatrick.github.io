@@ -15,7 +15,7 @@ const Card = ({ href, locked, name, date, techs, summary, until }) => (
         {name} {!getHref(href).href && <Emoji text=":skull:" />}{" "}
         {locked && <Emoji text=":lock:" />}
       </h3>
-      {!locked && <Out />}
+      {href && <Out />}
     </div>
     {date ? (
       <FormattedDate value={date} month="long" year="numeric">
