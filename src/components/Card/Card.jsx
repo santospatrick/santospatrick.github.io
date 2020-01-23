@@ -3,16 +3,20 @@ import { FormattedDate, FormattedMessage } from "react-intl";
 import Emoji from "react-emoji-render";
 
 import styles from "./index.module.css";
+import Out from "./svg/Out";
 
 const capitalize = word => `${word.charAt(0).toUpperCase()}${word.substr(1)}`;
 const getHref = href => (href ? { href, target: "_blank" } : {});
 
 const Card = ({ href, locked, name, date, techs, summary, until }) => (
   <a {...getHref(href)} className={styles.container}>
-    <h3 className={styles.title}>
-      {name} {!getHref(href).href && <Emoji text=":skull:" />}{" "}
-      {locked && <Emoji text=":lock:" />}
-    </h3>
+    <div className={styles.header}>
+      <h3 className={styles.title}>
+        {name} {!getHref(href).href && <Emoji text=":skull:" />}{" "}
+        {locked && <Emoji text=":lock:" />}
+      </h3>
+      {!locked && <Out />}
+    </div>
     {date ? (
       <FormattedDate value={date} month="long" year="numeric">
         {value => (
@@ -40,12 +44,14 @@ const Card = ({ href, locked, name, date, techs, summary, until }) => (
         )}
       </FormattedMessage>
     )}
-    {summary.map(text => (
-      <p className={styles.summary}>{text}</p>
+    {summary.map((text, index) => (
+      <p key={index} className={styles.summary}>
+        {text}
+      </p>
     ))}
     <ul className={styles.list}>
-      {techs.map((item, index) => (
-        <li className={styles.item} key={index}>
+      {techs.map(item => (
+        <li className={styles.item} key={item}>
           <i>{item}</i>
         </li>
       ))}

@@ -20,7 +20,7 @@ const projects = [
     date: new Date(2016, 10),
     until: new Date(2019, 0),
     href: "https://agrotis.io/#/",
-    techs: ["React", "CSS3", "Angular 1.x"]
+    techs: ["React", "Typescript", "CSS3", "Angular 1.x"]
   },
   {
     name: "Estratégia Concursos",
@@ -35,7 +35,10 @@ const projects = [
   },
   {
     name: "Prata Fina",
-    summary: [""],
+    summary: [
+      "E-commerce web para vendas de jóias (anéis, brincos e etc).",
+      "Meu primeiro contato com Vue.js, contribui com a componentização do sistema e organização de estilos a partir dos conceitos de Atomic Design."
+    ],
     href: "https://www.pratafina.com.br",
     date: new Date(2016, 0),
     until: new Date(2016, 10),
@@ -43,11 +46,13 @@ const projects = [
   },
   {
     name: "Previneo",
-    summary: [""],
+    summary: [
+      "Site institucional para uma empresa que trabalha na realização do diagnóstico precoce dos principais tipos de câncer que ocorrem no Brasil."
+    ],
     href: "https://www.previneo.com.br",
     date: new Date(2016, 7),
     until: new Date(2016, 7),
-    techs: ["Vue.js", "HTML5", "CSS3"]
+    techs: ["HTML5", "CSS3", "jQuery"]
   }
 ];
 

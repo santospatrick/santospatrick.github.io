@@ -1,5 +1,25 @@
 const freelances = [
   {
+    name: "STREQ25",
+    summary: [
+      "Aplicativo desenvolvido com React Native. Solução híbrida (iOS/Android).",
+      "O projeto auxilia trabalhadores a identificar seu nível de stress através de um questionário validado por um estudo científico conhecido como Streq-25."
+    ],
+    href: "https://play.google.com/store/apps/details?id=com.inovando.streq",
+    date: new Date(2019, 11),
+    techs: ["React Native"]
+  },
+  {
+    name: "QVT25",
+    summary: [
+      "Aplicativo desenvolvido com React Native. Solução híbrida (iOS/Android).",
+      "O projeto auxilia pessoas a identificar se a sua qualidade de vida no trabalho está saudável e, após responder algumas perguntas, uma porcentagem."
+    ],
+    href: "https://play.google.com/store/apps/details?id=com.inovando.qvt",
+    date: new Date(2019, 11),
+    techs: ["React Native"]
+  },
+  {
     name: "Clinicarx",
     summary: [
       "Aplicativo desenvolvido com a CLI oficial do React Native, Styled Components para organização de estilos/componentes dumb e Firebase para notificações. Solução híbrida (iOS/Android).",
@@ -20,10 +40,10 @@ const freelances = [
   },
   {
     name: "Red Week Ideas",
-    summary: [""],
+    summary: ["Hotsite para uma agência de Marketing que vende cursos online."],
     href: "http://redweekideas.com/",
     date: new Date(2016, 11),
-    techs: ["HTML5", "CSS3", "Javascript"]
+    techs: ["HTML5", "CSS3", "Javascript", "Google Maps"]
   }
 ];
 

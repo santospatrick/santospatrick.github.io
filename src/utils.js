@@ -24,7 +24,7 @@ export const consoleLogInspect = () => {
   ].join(";");
 
   console.log(
-    "%c Oh i see, you can inspect the code here: https://github.com/santospatrick/santospatrick.github.io",
+    "%c Oh i see, you can inspect the code here: https://github.com/santospatrick/santospatrick.github.io/tree/develop",
     styles
   );
 };
