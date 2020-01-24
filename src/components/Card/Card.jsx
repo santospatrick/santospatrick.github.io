@@ -24,7 +24,9 @@ const Card = ({ href, locked, name, date, techs, summary, until }) => (
             {capitalize(value)}
             {until ? (
               until === "now" ? (
-                " - Atual"
+                <FormattedMessage id="now">
+                  {value => ` - ${value}`}
+                </FormattedMessage>
               ) : (
                 <FormattedDate month="long" year="numeric" value={until}>
                   {value => ` - ${capitalize(value)}`}

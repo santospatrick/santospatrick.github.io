@@ -2,6 +2,7 @@ export default {
   en: {
     title: "Hi, I am Patrick",
     subtitle: "Front-End Developer at CHT",
+    now: "Current",
     header: {
       skills: "Skills",
       thoughts: "Thoughts",
@@ -80,7 +81,7 @@ export default {
           "The project's objective was to help people donate clothes/food. With Google Maps integration, it was easy to find NGOs that needed these donations close to you and NGOs also could find people that donate inside the platform."
       },
       redweekideas: {
-        p1: "Hotsite for a Marketing Agency that sells online classes."
+        p1: "Hotsite for a Marketing Agency that sells online courses."
       }
     },
     setup: {
@@ -163,6 +164,7 @@ export default {
   "pt-BR": {
     title: "Olá, eu sou o Patrick",
     subtitle: "Front-End Developer em CHT",
+    now: "Atual",
     header: {
       skills: "Habilidades",
       thoughts: "Considerações",
