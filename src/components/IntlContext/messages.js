@@ -54,7 +54,34 @@ export default {
         personal: "Personal Projects",
         design: "View all design projects"
       },
-      currentyWorking: "Working with teams"
+      currentyWorking: "Working with teams",
+      streq: {
+        p1:
+          "Mobile app developed with React Native. Hybrid solution (iOS/Android).",
+        p2:
+          "The project intends to help employed people identify their stress level through a quiz validated by a cientific research known as Streq-25."
+      },
+      qvt: {
+        p1:
+          "Mobile app developed with React Native. Hybrid solution (iOS/Android).",
+        p2:
+          "The project intends to help employed people check if their work/life balance is healthy and, after taking a quiz, the app shows how healthy you are."
+      },
+      clinicarx: {
+        p1:
+          "Mobile app developed with React Native's Official CLI, also used Styled Components to improve productivity on app's styles (once i am mainly a Web Developer) so i could write in common css language. Firebase was the choice for notifications. Hybrid solution (iOS/Android).",
+        p2:
+          "The project gives users access to their visits with doctors and which medicines they should take in a period of time, also users can rate drugstores."
+      },
+      giveit: {
+        p1:
+          "Web system and app for a university gradutation's job in Bachelor of Technology. I worked as Fullstack developing three parts of the project (Front, Back & Mobile) alone from beginning to end.",
+        p2:
+          "The project's objective was to help people donate clothes/food. With Google Maps integration, it was easy to find NGOs that needed these donations close to you and NGOs also could find people that donate inside the platform."
+      },
+      redweekideas: {
+        p1: "Hotsite for a Marketing Agency that sells online classes."
+      }
     },
     setup: {
       list: `
@@ -188,7 +215,34 @@ export default {
         personal: "Projetos pessoais",
         design: "Ver todos os projetos de design"
       },
-      currentyWorking: "Trabalhando com times"
+      currentyWorking: "Trabalhando com times",
+      streq: {
+        p1:
+          "Aplicativo desenvolvido com React Native. Solução híbrida (iOS/Android).",
+        p2:
+          "O projeto auxilia trabalhadores a identificar seu nível de stress através de um questionário validado por um estudo científico conhecido como Streq-25."
+      },
+      qvt: {
+        p1:
+          "Aplicativo desenvolvido com React Native. Solução híbrida (iOS/Android).",
+        p2:
+          "O projeto auxilia pessoas a identificar se a sua qualidade de vida no trabalho está saudável e, após responder algumas perguntas, mostra um gráfico identificando o quão saudável você está."
+      },
+      clinicarx: {
+        p1:
+          "Aplicativo desenvolvido com a CLI oficial do React Native, Styled Components para organização de estilos/componentes dumb e Firebase para notificações. Solução híbrida (iOS/Android).",
+        p2:
+          "O projeto consiste em conceder ao usuário acesso ao seu histórico de atendimentos, medicamentos solicitados pelo médico e avaliações de Farmácias."
+      },
+      giveit: {
+        p1:
+          "Sistema web e aplicativo para um trabalho de conclusão de curso em análise de sistemas. Trabalhei como Full-Stack, desenvolvi os 3 projetos (Front, Back e Mobile) sozinho do início ao fim.",
+        p2:
+          "O objetivo do projeto era facilitar a doação de roupas/comida. A partir de integração com o Google Maps, era possível encontrar ONGs que precisavam de doações perto de você e as próprias ONGs poderiam encontrar doadores também dentro da plataforma."
+      },
+      redweekideas: {
+        p1: "Hotsite para uma agência de Marketing que vende cursos online."
+      }
     },
     setup: {
       list: `

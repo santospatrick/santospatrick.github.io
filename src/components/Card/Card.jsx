@@ -46,7 +46,7 @@ const Card = ({ href, locked, name, date, techs, summary, until }) => (
     )}
     {summary.map((text, index) => (
       <p key={index} className={styles.summary}>
-        {text}
+        <FormattedMessage id={text} />
       </p>
     ))}
     <ul className={styles.list}>
