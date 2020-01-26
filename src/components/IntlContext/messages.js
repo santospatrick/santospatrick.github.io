@@ -56,6 +56,33 @@ export default {
         design: "View all design projects"
       },
       currentyWorking: "Working with teams",
+      camerahot: {
+        p1:
+          "Web system developed with Vue.js, Vuex & CSS Modules. I structured the project from the beginning with best javascript practices standardizing the code from concepts and techs like: ESLint, Prettier, Atomic Design, etc.",
+        p2:
+          "I also structured the Node.js project that was used for real-time functions with Babel, Nodemon & PM2 to improve productivity at development/production environments"
+      },
+      agrotis: {
+        p1:
+          "Multiple web systems developed with React.js, Styled Components and a project with only stateless reusable components composing the company's Design System.",
+        p2:
+          "Solutions for agrobusiness with a cloud infrastructure and digital remaking of manual processes of their users for over 25 years. I worked with 2 teams using React/AngularJS and at the project with reusable components."
+      },
+      estrategia_concursos: {
+        p1:
+          "E-learning platform with courses to prepare and train students for civil service exams.",
+        p2:
+          "I worked with the project's maintenance developed with jQuery and Sass."
+      },
+      prata_fina: {
+        p1: "E-commerce web that sells jewelry (rings, earings, etc).",
+        p2:
+          "My first contact with Vue.js, i contributed with componentization of the system and styles structure based on Atomic Design concepts."
+      },
+      previneo: {
+        p1:
+          "Institutional website for a company that works with early diagnosis of the main types of cancer that occur in Brazil."
+      },
       streq: {
         p1:
           "Mobile app developed with React Native. Hybrid solution (iOS/Android).",
@@ -218,6 +245,32 @@ export default {
         design: "Ver todos os projetos de design"
       },
       currentyWorking: "Trabalhando com times",
+      camerahot: {
+        p1:
+          "Sistema web em desenvolvimento com Vue.js, Vuex e CSS Modules. Estruturei o projeto desde o início com as melhores práticas de projetos Javascript padronizando o código a partir de conceitos e tecnologias como: ESLint, Prettier, Atomic Design, etc.",
+        p2:
+          "Também estruturei um projeto back-end em Node.js para funcionalidades real time com Babel, Nodemon e PM2 para aumentar a produtividade dos ambientes de desenvolvimento/produção."
+      },
+      agrotis: {
+        p1:
+          "Múltiplos sistemas web desenvolvidos com React.js, Styled Components e separação de projeto com componentes reutilizados entre 3 projetos diferentes para composição de um Design System.",
+        p2:
+          "Soluções para o agronegócio a partir de uma infraestrutura Cloud e transformação digital de processos manuais de clientes há mais de 25 anos. Trabalhei em 2 times com React/Angular e na estruturação do projeto de componentes reutilizáveis."
+      },
+      estrategia_concursos: {
+        p1:
+          "Sistema web EAD com conteúdo de preparação e capacitação de alunos para concursos públicos.",
+        p2: "Trabalhei com suporte do projeto desenvolvido com jQuery e Sass."
+      },
+      prata_fina: {
+        p1: "E-commerce web para vendas de jóias (anéis, brincos e etc).",
+        p2:
+          "Meu primeiro contato com Vue.js, contribui com a componentização do sistema e organização de estilos a partir dos conceitos de Atomic Design."
+      },
+      previneo: {
+        p1:
+          "Site institucional para uma empresa que trabalha na realização do diagnóstico precoce dos principais tipos de câncer que ocorrem no Brasil."
+      },
       streq: {
         p1:
           "Aplicativo desenvolvido com React Native. Solução híbrida (iOS/Android).",
