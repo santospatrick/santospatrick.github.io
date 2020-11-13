@@ -1,5 +1,12 @@
 const freelances = [
   {
+    name: "Tahnamão",
+    summary: ["work.tahnamao.p1", "work.tahnamao.p2"],
+    href: "https://play.google.com/store/apps/details?id=com.tahnamao",
+    date: new Date(2020, 5),
+    techs: ["React Native", "Payment Integration", "Chat", "OneSignal"]
+  },
+  {
     name: "STREQ25",
     summary: ["work.streq.p1", "work.streq.p2"],
     href: "https://play.google.com/store/apps/details?id=com.inovando.streq",

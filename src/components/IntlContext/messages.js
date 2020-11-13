@@ -1,7 +1,7 @@
 export default {
   en: {
     title: "Hi, I am Patrick",
-    subtitle: "Front-End Developer at Contabilizei",
+    subtitle: "Front-End Developer at Inovan.do",
     now: "Current",
     header: {
       skills: "Skills",
@@ -50,12 +50,18 @@ export default {
     },
     work: {
       title: {
-        freelances: "Freelances",
+        freelances: "Freelances/Jobs",
         jobs: "Full Time Jobs",
         personal: "Personal Projects",
         design: "View all design projects"
       },
-      currentyWorking: "Working with teams",
+      currentyWorking: "Internal Solutions",
+      inovando: {
+        p1:
+          "Custom internal web system solutions and mobile apps for micro and small companies with React.js and React Native",
+        p2:
+          "I also structured the company's open source projects at Github, where we can find templates developed for React.js, React Native, Adonis and a React.js components library (NPM Package). We use all these templates/components in all our front-end, mobile and back-end projects (no exception)."
+      },
       camerahot: {
         p1:
           "Web system developed with Vue.js, Vuex & CSS Modules. I structured the project from the beginning with best javascript practices standardizing the code from concepts and techs like: ESLint, Prettier, Atomic Design, etc.",
@@ -88,6 +94,12 @@ export default {
           "Mobile app developed with React Native. Hybrid solution (iOS/Android).",
         p2:
           "The project intends to help employed people identify their stress level through a quiz validated by a cientific research known as Streq-25."
+      },
+      tahnamao: {
+        p1:
+          "Mobile app developed with React Native. Hybrid solution (iOS/Android).",
+        p2:
+          "With this app you can find people to get jobs done like: cleaning a house or even develop an app layout"
       },
       qvt: {
         p1:
@@ -190,7 +202,7 @@ export default {
   },
   "pt-BR": {
     title: "Olá, eu sou o Patrick",
-    subtitle: "Front-End Developer em Contabilizei",
+    subtitle: "Front-End Developer em Inovan.do",
     now: "Atual",
     header: {
       skills: "Habilidades",
@@ -239,12 +251,18 @@ export default {
     },
     work: {
       title: {
-        freelances: "Freelances",
+        freelances: "Freelances/Entregas",
         jobs: "Experiência",
         personal: "Projetos pessoais",
         design: "Ver todos os projetos de design"
       },
-      currentyWorking: "Trabalhando com times",
+      currentyWorking: "Soluções Internas",
+      inovando: {
+        p1:
+          "Soluções personalizadas para sistemas internos e aplicativos para micro e pequenas empresas com React.js e React Native.",
+        p2:
+          "Também estruturei toda a parte open-source da empresa pelo Github, onde podemos encontrar templates desenvolvidos para React.js, React Native, Adonis e também uma biblioteca de componentes para React.js. Usamos esses templates/componentes em todos os projetos front-end, mobile e back-end (sem excessão)."
+      },
       camerahot: {
         p1:
           "Sistema web em desenvolvimento com Vue.js, Vuex e CSS Modules. Estruturei o projeto desde o início com as melhores práticas de projetos Javascript padronizando o código a partir de conceitos e tecnologias como: ESLint, Prettier, Atomic Design, etc.",
@@ -276,6 +294,12 @@ export default {
           "Aplicativo desenvolvido com React Native. Solução híbrida (iOS/Android).",
         p2:
           "O projeto auxilia trabalhadores a identificar seu nível de stress através de um questionário validado por um estudo científico conhecido como Streq-25."
+      },
+      tahnamao: {
+        p1:
+          "Aplicativo desenvolvido com React Native. Solução híbrida (iOS/Android).",
+        p2:
+          "Com esse aplicativo você encontra pessoas para fazer tarefas como por exemplo: limpar uma casa ou até mesmo desenvolver um layout de um aplicativo"
       },
       qvt: {
         p1:

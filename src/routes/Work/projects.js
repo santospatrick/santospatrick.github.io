@@ -1,10 +1,18 @@
 const projects = [
   {
+    name: "Inovan.do",
+    summary: ["work.inovando.p1", "work.inovando.p2"],
+    href: "https://github.com/inovando",
+    date: new Date(2020, 5),
+    until: "now",
+    techs: ["React.js", "React Native", "Styled Components", "Github"]
+  },
+  {
     name: "Camera Hot",
     summary: ["work.camerahot.p1", "work.camerahot.p2"],
     href: "https://camerahot.com/",
     date: new Date(2019, 0),
-    until: "now",
+    until: new Date(2020, 1),
     techs: ["Vue.js", "Node.js", "CSS3"]
   },
   {
